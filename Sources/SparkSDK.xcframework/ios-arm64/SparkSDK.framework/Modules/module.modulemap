@@ -1,0 +1,11 @@
+framework module SparkSDK {
+  umbrella header "SparkSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SparkSDK.Swift {
+  header "SparkSDK-Swift.h"
+  requires objc
+}
