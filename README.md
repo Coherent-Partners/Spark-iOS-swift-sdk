@@ -20,8 +20,9 @@ To do this, use the Impex command line tool to obtain the models as a zip file. 
 
 Then, pass this to the factory, along with a completion handler. The factory has to do some setup work behind the scenes, we're using a completion handler here so we don't block the calling function. When everything is ready, or has failed, the completion handler will called with a `Result<SparkSDK, Error>` value. The completion handler will always be called - if setup failed, the result will be an error, with some information on what went wrong. If setup succeeded, your `Result` will contain a `SparkSDK` instance.
 ```
+    let modelsUrl = URL(fileURLWithPath: modelsPath)
     factory.requestSDK(
-        modelsPath: modelsPath,
+        modelsPath: modelsUrl.absoluteString,
         onSDKReady: { sdkResult in
             // handle sdkResult here
         }
