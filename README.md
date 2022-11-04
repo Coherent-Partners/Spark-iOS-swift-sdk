@@ -75,7 +75,7 @@ Typically, the data request JSON will have this structure:
 }
 ```
 
-Your input data must match this structure when encoded as JSON. Passing the data to the SDK, along with the request ID, looks like this.
+Your input data must match this structure when encoded as JSON. Passing the data to the SDK, along with the request ID, looks like this. Request ID is a unique string to track the result in publisher.
 ```
     let requestId = UUID().uuidString
     sparkSDK.execute(requestId: requestId, input: inputData)
