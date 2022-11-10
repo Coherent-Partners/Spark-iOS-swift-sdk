@@ -24,7 +24,7 @@ dependencies: [
 
 ### Get resources
 
-You need to add resouces into your project in order to run Spark iOS SDK properly, you can get resouces from given url. Resouces contains `RunnerBundle.js` and `index.html` files.
+You need to add resouces into your project in order to run Spark iOS SDK properly. You can get resouces from given url. Resources contains `RunnerBundle.js` and `index.html` files.
 ```
 https://github.com/Coherent-Partners/Spark-iOS-swift-sdk
 ```
@@ -106,7 +106,9 @@ Typically, the data request JSON will have this structure:
 }
 ```
 
-Your input data must match this structure when encoded as JSON. Passing the data to the SDK, along with the request ID, looks like this. Request ID is a unique string to track the result in publisher.
+Your input data must match this structure when encoded as JSON. You will also need a request ID, which is required to be unique. A result for a specific request will use this request ID. 
+
+Passing the data to the SDK, along with the request ID, looks like this.
 ```
     let requestId = UUID().uuidString
     sparkSDK.execute(requestId: requestId, input: inputData)
