@@ -24,16 +24,7 @@ dependencies: [
 
 ### Get resources
 
-You need to add resouces into your project in order to run Spark iOS SDK properly. You can get resouces from given url. Resources contains `RunnerBundle.js` and `index.html` files.
-```
-https://github.com/Coherent-Partners/Spark-iOS-swift-sdk
-```
-
-Create `assets` directory and add `resource` and `models` inside assets as shown below.
-
-> **_NOTE:_**  Spark iOS SDK searches for `resource` and `models` inside given path so please make sure to add `resource` and `models` directories with exact names.
-
-![plot](./images/folder-structure.png)
+Get required models and add models to project.
 
 
 ## Creating an instance of the SDK
@@ -44,10 +35,10 @@ First, create an instance of the SDK factory:
 
 The SDK does not contain any WASM models by default; these must be provided to the factory.
 
-To do this, use the Impex command line tool to obtain the models as a zip file. Unzip this and add the files to your Xcode project. Then, obtain the directory where the models are stored as a string. For example, this code gets the location of an folder in the project called `assets`.
+To do this, use the Impex command line tool to obtain the models as a zip file. Unzip this and add the files to your Xcode project. Then, obtain the directory where the models are stored as a string. For example, this code gets the location of an folder in the project called `models`.
 ```
    let path = Bundle.main.bundlePath
-   let modelsPath = "\(path)/assets"
+   let modelsPath = "\(path)/models"
 ```
 
 Then, pass this to the factory, along with a completion handler. The factory has to do some setup work behind the scenes, we're using a completion handler here so we don't block the calling function. When everything is ready, or has failed, the completion handler will called with a `Result<SparkSDK, Error>` value. The completion handler will always be called - if setup failed, the result will be an error, with some information on what went wrong. If setup succeeded, your `Result` will contain a `SparkSDK` instance.
