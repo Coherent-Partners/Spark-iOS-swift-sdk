@@ -36,7 +36,7 @@ public struct ExecutionResponse {
   public let result: Any
 }
 @objc @_inheritsConvenienceInitializers public class SparkSDKFactory : ObjectiveC.NSObject {
-  public func requestSDK(modelsPath: Swift.String, onSDKReady: @escaping (Swift.Result<SparkSDK.SparkiOSSDK, Swift.Error>) -> Swift.Void)
+  public func requestSDK(modelsPath: Swift.String, enableLogging: Swift.Bool = false, onSDKReady: @escaping (Swift.Result<SparkSDK.SparkiOSSDK, Swift.Error>) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
