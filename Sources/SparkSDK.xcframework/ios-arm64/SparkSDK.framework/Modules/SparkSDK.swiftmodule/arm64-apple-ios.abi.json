@@ -13,6 +13,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SparkSDK"
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -707,7 +714,7 @@
           {
             "kind": "Function",
             "name": "requestSDK",
-            "printedName": "requestSDK(modelsPath:onSDKReady:)",
+            "printedName": "requestSDK(modelsPath:enableLogging:onSDKReady:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -719,6 +726,13 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeFunc",
@@ -754,8 +768,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8SparkSDK0A10SDKFactoryC07requestB010modelsPath10onSDKReadyySS_ys6ResultOyAA11SparkiOSSDKCs5Error_pGctF",
-            "mangledName": "$s8SparkSDK0A10SDKFactoryC07requestB010modelsPath10onSDKReadyySS_ys6ResultOyAA11SparkiOSSDKCs5Error_pGctF",
+            "usr": "s:8SparkSDK0A10SDKFactoryC07requestB010modelsPath13enableLogging10onSDKReadyySS_Sbys6ResultOyAA11SparkiOSSDKCs5Error_pGctF",
+            "mangledName": "$s8SparkSDK0A10SDKFactoryC07requestB010modelsPath13enableLogging10onSDKReadyySS_Sbys6ResultOyAA11SparkiOSSDKCs5Error_pGctF",
             "moduleName": "SparkSDK",
             "declAttributes": [
               "AccessControl"
@@ -977,6 +991,13 @@
       "offset": 181,
       "length": 9,
       "value": "\"readyJs\""
+    },
+    {
+      "filePath": "\/Users\/muhammadubaid\/Developer\/GitStart\/SparkSDK\/client-coherent-spark-ios-sdk\/SparkSDK\/SparkSDK\/SparkSDKFactory.swift",
+      "kind": "BooleanLiteral",
+      "offset": 476,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
