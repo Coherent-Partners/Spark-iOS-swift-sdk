@@ -52,6 +52,19 @@ Then, pass this to the factory, along with a completion handler. The factory has
     )
 ```
 
+## Logging
+As of version 1.0.6, the SDK has logging disabled by default. To re-enable this, pass `enableLogging: true`
+```
+    let modelsUrl = URL(fileURLWithPath: modelsPath)
+    factory.requestSDK(
+        modelsPath: modelsUrl.absoluteString,
+        enableLogging: true,
+        onSDKReady: { sdkResult in
+            // handle sdkResult here
+        }
+    )
+```
+
 ## Using the SDK to process data
 Once an instance of the SDK is created, you are ready to pass data to it, for execution. The data will be processed by the models that were loaded when creating the SDK instance.
 The interface presented by the SDK for executing a model request intentionally resembles the web equivalent.
