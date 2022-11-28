@@ -6,6 +6,6 @@ framework module SparkSDK {
 }
 
 module SparkSDK.Swift {
-    header "SparkSDK-Swift.h"
-    requires objc
+  header "SparkSDK-Swift.h"
+  requires objc
 }
