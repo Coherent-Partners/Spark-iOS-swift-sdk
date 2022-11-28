@@ -1,0 +1,54 @@
+{
+  "EngineInformation": {
+    "FileSize": 4885,
+    "Author": "francisc.camillo@coherent.global",
+    "ProductName": "ExecuteSDK",
+    "Revision": "1.0.0",
+    "Description": null,
+    "FileMD5Hash": "3E9395DB32F0E8430BD8865DDA53753C",
+    "UniversalFileHash": null,
+    "ReleaseDate": "2022-08-23T13:06:52.786Z",
+    "ServiceName": "Model_C",
+    "NoOfInstance": 1,
+    "UploaderEmail": "francisc.camillo@coherent.global",
+    "DefaultEngineType": "NodeGen",
+    "OriginalFileName": "Model_C.xlsx",
+    "SizeOfUploadedFile": 4885,
+    "ReleaseNote": null,
+    "IsTypeScriptFile": false,
+    "IsJsSheetEngineGenerated": false,
+    "EngineUpgradeType": "minor",
+    "PublicAPI": true,
+    "FileGuid": "42efc880-91f1-4928-88cc-b29b68327f26",
+    "ServiceGuid": "bcc2f47d-0682-4d2b-9174-5b01f903ee6b",
+    "ServiceVersionGuid": "0211e8f0-9988-4514-a761-9782db6700ce",
+    "BaseUrl": "https://excel.dev.coherent.global",
+    "Tenant": "coherent",
+    "AllowToStoreHistory": true,
+    "CalcMode": "AUTO",
+    "ForceInputsWriteBeforeCalcModeChanges": true,
+    "Provenance": null,
+    "VersionLabel": "Model_C",
+    "ExplainerType": "",
+    "IsXParameter": false,
+    "XParameterSetVersionId": "",
+    "VersionUpgradeAssert": "OFF"
+  },
+  "XInputTable": [
+    {
+      "Input Name": "Input",
+      "Description": null,
+      "Address": "C2"
+    }
+  ],
+  "XOutputTable": [
+    {
+      "Output Name": "Output1",
+      "Description": null,
+      "Address": "C3"
+    }
+  ],
+  "FormsService": null,
+  "StaticService": null,
+  "VersionId": "0211e8f0-9988-4514-a761-9782db6700ce"
+}
