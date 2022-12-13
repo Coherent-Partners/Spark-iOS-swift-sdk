@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SparkSDK-Swift.h</key>
 		<data>
-		T1iOXA5HYJ6Q6AJoYbti2ojziyY=
+		8ZjmEbjxCxCY/LNntVZSt68ylTU=
 		</data>
 		<key>Headers/SparkSDK.h</key>
 		<data>
@@ -14,59 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DPr4znAy+M/7KZWagGGsgyyYDYk=
+		It6rFmouugPuVcpbLrKT804W+Ys=
+		</data>
+		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		/vdxFGwgpoWsPnCFydrromSfRDI=
+		</data>
+		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		58BWoWVH+1a9ewVUaXs76sg+Amk=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		X3Jk3lRESWTvlmJtd3z/n5JnW+c=
+		vlnZRE3Zgeg8H9CspBgV0yr24c0=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9Ufw45qRMsf6o3aR4Zzuwd/yS+A=
+		58BWoWVH+1a9ewVUaXs76sg+Amk=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dR+CuESveJTxGfX2weoqJQJZXNg=
+		6IJKk+DuaBQ6G1MQnhYTbf+80Gc=
 		</data>
-		<key>Modules/SparkSDK.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		X3Jk3lRESWTvlmJtd3z/n5JnW+c=
+		/vdxFGwgpoWsPnCFydrromSfRDI=
 		</data>
-		<key>Modules/SparkSDK.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9Ufw45qRMsf6o3aR4Zzuwd/yS+A=
-		</data>
-		<key>Modules/SparkSDK.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		dR+CuESveJTxGfX2weoqJQJZXNg=
+		CEfcxcnUYAtDjmZpsMq3NchfKN0=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		z5NY5BlFEKICkGROjPn9OIihD+Q=
+		apu/7Ohd+4sPJI3POxnR9tvrIfU=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zc8/2Yyv8XJnlKv/+YBcM8+npqI=
+		CEfcxcnUYAtDjmZpsMq3NchfKN0=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QJI/yK9IM08+nOX11dydUHjHSvc=
-		</data>
-		<key>Modules/SparkSDK.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		z5NY5BlFEKICkGROjPn9OIihD+Q=
-		</data>
-		<key>Modules/SparkSDK.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		zc8/2Yyv8XJnlKv/+YBcM8+npqI=
-		</data>
-		<key>Modules/SparkSDK.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		QJI/yK9IM08+nOX11dydUHjHSvc=
+		1PNI2Ydw0eISRqwdVpa0h159lM4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		6MgBvkrImXKCCUN97/W6UqBLC4o=
+		UDwZ+bMeWRuFmp3eyfP1trytea0=
 		</data>
 		<key>resource/RunnerBundle.js</key>
 		<data>
@@ -83,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9w/ITbZqMTQ9iP8b3Yw7yFXjTvtuwi9rovYvbdD2SPs=
+			fHgeiQ+W1CcS6m3nhTcZRONMmo70GzpEcsfrEF4oFMU=
 			</data>
 		</dict>
 		<key>Headers/SparkSDK.h</key>
@@ -93,95 +85,81 @@
 			OKIKzYls+q6x043yvgS5w8VsXyFAg/c9b+6z2GpAsI4=
 			</data>
 		</dict>
+		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6LveNI0xieT77T90tExFCxjy6I8UK8BRsi3Rl6hiw9E=
+			</data>
+		</dict>
+		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i0PsSey/vRzCExsTA4JdDHmUI10CMtk0kSH9Lw0dnts=
+			</data>
+		</dict>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fNUvJoJ0BkE3ESI9WVFKjF7+T8BpXvnzR68pyLfTB9s=
+			OibRPhK9NTT9OVNEhQurVIJ8XteaUipieJC3zF1WNTA=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5S4ZThavNbmMd/jOoydFh4yygjQ6R2U3cQWz1NFeG10=
+			i0PsSey/vRzCExsTA4JdDHmUI10CMtk0kSH9Lw0dnts=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zvlkvb7j7iX8gTxbjRJtnqbMLJsWBJklmnOAvplhgAE=
+			btdgwGvGtmcDruHX3Kzkrmm+linOh33wKhNqKOiypuo=
 			</data>
 		</dict>
-		<key>Modules/SparkSDK.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fNUvJoJ0BkE3ESI9WVFKjF7+T8BpXvnzR68pyLfTB9s=
+			6LveNI0xieT77T90tExFCxjy6I8UK8BRsi3Rl6hiw9E=
 			</data>
 		</dict>
-		<key>Modules/SparkSDK.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5S4ZThavNbmMd/jOoydFh4yygjQ6R2U3cQWz1NFeG10=
-			</data>
-		</dict>
-		<key>Modules/SparkSDK.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Zvlkvb7j7iX8gTxbjRJtnqbMLJsWBJklmnOAvplhgAE=
+			ZyPq25G+11XS0wMdXh1IvQiGMGsO35fUR8E8xMN/y90=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GBSBQFzjXKbS3bIoHr4WDZyW4P01U+9ghf/JMWLm1AE=
+			GibLkf0j1qWeii9a2wO55bQRcnScQrftzRXYnfEhD8c=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lPv6yVcIk5lapyZ7IwQpRYVvIlXjseiOYQWh0O5BmsQ=
+			ZyPq25G+11XS0wMdXh1IvQiGMGsO35fUR8E8xMN/y90=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jjMSz3QOJidtQj10e5CaCiVd0J13/m4depPMoqmfGtM=
-			</data>
-		</dict>
-		<key>Modules/SparkSDK.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GBSBQFzjXKbS3bIoHr4WDZyW4P01U+9ghf/JMWLm1AE=
-			</data>
-		</dict>
-		<key>Modules/SparkSDK.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lPv6yVcIk5lapyZ7IwQpRYVvIlXjseiOYQWh0O5BmsQ=
-			</data>
-		</dict>
-		<key>Modules/SparkSDK.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jjMSz3QOJidtQj10e5CaCiVd0J13/m4depPMoqmfGtM=
+			GrzdLazR2BzoGx3BTO8CuVz7+8ZoKAmMN1iJp+QNDY4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eIYry4eE57mfhOKUjOU1m63OJ+jNfVqpDzj1NQxIAhs=
+			MkNlMTcLohymk+sBDIf+vJxxUXNKMdVnDvSJwQQ7SrE=
 			</data>
 		</dict>
 		<key>resource/RunnerBundle.js</key>
