@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6IJKk+DuaBQ6G1MQnhYTbf+80Gc=
+		ngJogyFg60zLw1pT+E5RjkDLskU=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1PNI2Ydw0eISRqwdVpa0h159lM4=
+		Yhw83hgB7RDaIv80cGK7Vtffra8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -117,7 +117,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			btdgwGvGtmcDruHX3Kzkrmm+linOh33wKhNqKOiypuo=
+			08k9CKRP1fio4KMxAjU8dO26m53VJK1BkCVdDmF5UgY=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -152,7 +152,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GrzdLazR2BzoGx3BTO8CuVz7+8ZoKAmMN1iJp+QNDY4=
+			wZ+d31TiXRhPornHUo4RgKk3XEb0llvlBI5vQvFMO6U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
