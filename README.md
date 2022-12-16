@@ -13,7 +13,7 @@ Minimum iOS target is **iOS 14.0**.
 ### Installation through Swift Package Manager
 The Swift Package Manager is a tool for automating the distribution of Swift code or binary frameworks and is integrated into the swift compiler. Spark iOS SDK does support its use on supported platforms.
 
-Adding Spark iOS SDK as a dependency is as easy as adding it to the dependencies value of your Package.swift.
+Adding Spark iOS SDK as a dependency is as easy as adding it to the dependencies value of your `Package.swift`.
 
 ```
 dependencies: [
@@ -35,7 +35,9 @@ First, create an instance of the SDK factory:
 
 The SDK does not contain any WASM models by default; these must be provided to the factory.
 
-To do this, use the Impex command line tool to obtain the models as a zip file. Unzip this and add the files to your Xcode project. Then, obtain the directory where the models are stored as a string. For example, this code gets the location of an folder in the project called `models`.
+To do this, use the Impex command line tool to obtain the models as a zip file. Unzip this and add the files to your Xcode project. Each model ID must be present as either a zip file (eg. `39eb9fb4-3343-475c-8511-1f862ba2d408.zip`) or an unzipped directory with the same ID. The calculations perform better with unzipped models. It's an error to have a zip file and a directory with the same model ID - the SDK won't be able to deal with this. If there is any directory with the same model ID as a zip file, requesting the SDK will fail.
+
+Once the models have been added, you should obtain the directory where the models are stored, as a string. For example, this code gets the location of an folder in the project called `models`.
 ```
    let path = Bundle.main.bundlePath
    let modelsPath = "\(path)/models"
