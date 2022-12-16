@@ -7,7 +7,7 @@ The SDK is available as a Swift package and can be added to an Xcode project via
 ## Installation
 
 ### Requirements
-Spark iOS SDK requires **version 14.0** or later of [Xcode](https://developer.apple.com/xcode/) to run the project.
+Spark iOS SDK requires **version 13.4** or later of [Xcode](https://developer.apple.com/xcode/) to run the project.
 Minimum iOS target is **iOS 14.0**.
 
 ### Installation through Swift Package Manager
