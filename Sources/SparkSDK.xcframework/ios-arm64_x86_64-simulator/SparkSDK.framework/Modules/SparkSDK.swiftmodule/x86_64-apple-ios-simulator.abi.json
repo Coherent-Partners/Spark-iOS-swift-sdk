@@ -746,6 +746,34 @@
             "init_kind": "Convenience"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(webView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SparkSDKFactory",
+                "printedName": "SparkSDK.SparkSDKFactory",
+                "usr": "c:@M@SparkSDK@objc(cs)SparkSDKFactory"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8SparkSDK0A10SDKFactoryC7webViewACSo05WKWebE0C_tcfc",
+            "mangledName": "$s8SparkSDK0A10SDKFactoryC7webViewACSo05WKWebE0C_tcfc",
+            "moduleName": "SparkSDK",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
             "kind": "Function",
             "name": "requestSDK",
             "printedName": "requestSDK(modelsPath:enableLogging:onSDKReady:)",
@@ -1004,14 +1032,14 @@
     {
       "filePath": "\/Users\/joe\/workspace\/Spark-iOS-sdk\/SparkSDK\/SparkSDK\/SparkSDKFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 426,
+      "offset": 425,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/joe\/workspace\/Spark-iOS-sdk\/SparkSDK\/SparkSDK\/SparkSDKFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 708,
+      "offset": 1306,
       "length": 5,
       "value": "false"
     }

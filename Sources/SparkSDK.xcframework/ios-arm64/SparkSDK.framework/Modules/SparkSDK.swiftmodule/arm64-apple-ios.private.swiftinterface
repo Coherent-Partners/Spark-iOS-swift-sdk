@@ -38,6 +38,7 @@ public struct ExecutionResponse {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SparkSDKFactory : ObjectiveC.NSObject {
   @objc override convenience dynamic public init()
+  convenience public init(webView: WebKit.WKWebView)
   public func requestSDK(modelsPath: Swift.String, enableLogging: Swift.Bool = false, onSDKReady: @escaping (Swift.Result<SparkSDK.SparkiOSSDK, Swift.Error>) -> Swift.Void)
   @objc deinit
 }
