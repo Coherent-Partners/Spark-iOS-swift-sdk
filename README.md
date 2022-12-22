@@ -22,9 +22,11 @@ dependencies: [
 
 ```
 
-### Get resources
+### Including WASM models
+The SDK does not contain any WASM models by default; these must be provided to the factory.
 
-Get required models and add models to project.
+To do this, use the Impex command line tool to obtain the models as a zip file. Unzip this and add the files to your Xcode project. Each model ID must be present as either a zip file (eg. `39eb9fb4-3343-475c-8511-1f862ba2d408.zip`) or an unzipped directory with the same ID. The calculations perform better with unzipped models. It's an error to have a zip file and a directory with the same model ID - the SDK won't be able to deal with this. If there is any directory with the same model ID as a zip file, requesting the SDK will fail.
+
 
 
 ## Creating an instance of the SDK
@@ -32,18 +34,16 @@ First, create an instance of the SDK factory:
 ```
    let factory = SparkSDKFactory()
 ```
+The SDK will use an instance of `WKWebView` to host the WASM models. This instance can be injected into the SDK factory's constructor, or the SDK will create one itself. It is available as a public property on the SDK instance itself, when initialisation is complete. For performance reasons, you must ensure this `WKWebView` instance is attached to your app's view hierarchy.
 
-The SDK does not contain any WASM models by default; these must be provided to the factory.
 
-To do this, use the Impex command line tool to obtain the models as a zip file. Unzip this and add the files to your Xcode project. Each model ID must be present as either a zip file (eg. `39eb9fb4-3343-475c-8511-1f862ba2d408.zip`) or an unzipped directory with the same ID. The calculations perform better with unzipped models. It's an error to have a zip file and a directory with the same model ID - the SDK won't be able to deal with this. If there is any directory with the same model ID as a zip file, requesting the SDK will fail.
-
-Once the models have been added, you should obtain the directory where the models are stored, as a string. For example, this code gets the location of an folder in the project called `models`.
+Once the models have been added to your project, you should obtain the directory where the models are stored, as a string. For example, this code gets the location of an folder in the project called `models`.
 ```
    let path = Bundle.main.bundlePath
    let modelsPath = "\(path)/models"
 ```
 
-Then, pass this to the factory, along with a completion handler. The factory has to do some setup work behind the scenes, we're using a completion handler here so we don't block the calling function. When everything is ready, or has failed, the completion handler will called with a `Result<SparkSDK, Error>` value. The completion handler will always be called - if setup failed, the result will be an error, with some information on what went wrong. If setup succeeded, your `Result` will contain a `SparkSDK` instance.
+Then, pass this string to the factory, along with a completion handler. The factory has to do some setup work behind the scenes. We're using a completion handler here so we don't block the calling function. When everything is ready, or has failed, the completion handler will called with a `Result<SparkSDK, Error>` value. The completion handler will always be called - if setup failed, the result will be an error, with some information on what went wrong. If setup succeeded, your `Result` will contain a `SparkSDK` instance.
 ```
     let modelsUrl = URL(fileURLWithPath: modelsPath)
     factory.requestSDK(
