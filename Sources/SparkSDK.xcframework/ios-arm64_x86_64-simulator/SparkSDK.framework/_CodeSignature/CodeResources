@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DPr4znAy+M/7KZWagGGsgyyYDYk=
+		lVeA33k6THqbh1gs1k+zhiXaQDo=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9Ufw45qRMsf6o3aR4Zzuwd/yS+A=
+		NH8filvrV7bvJMLVLA7Q+QVKks0=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dR+CuESveJTxGfX2weoqJQJZXNg=
+		wYnT++nBQY+yvvPZJK3X9nQNlMg=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		9Ufw45qRMsf6o3aR4Zzuwd/yS+A=
+		NH8filvrV7bvJMLVLA7Q+QVKks0=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		dR+CuESveJTxGfX2weoqJQJZXNg=
+		wYnT++nBQY+yvvPZJK3X9nQNlMg=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zc8/2Yyv8XJnlKv/+YBcM8+npqI=
+		CfBsLWYqdMmHYOACiA8LFGCeWnM=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QJI/yK9IM08+nOX11dydUHjHSvc=
+		cOg0ISyIsLtjY91nOwtVVCxcHCs=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		zc8/2Yyv8XJnlKv/+YBcM8+npqI=
+		CfBsLWYqdMmHYOACiA8LFGCeWnM=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		QJI/yK9IM08+nOX11dydUHjHSvc=
+		cOg0ISyIsLtjY91nOwtVVCxcHCs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5S4ZThavNbmMd/jOoydFh4yygjQ6R2U3cQWz1NFeG10=
+			lgt5CCdeEgd3GO0I9dYfrD7DWMKfGS0xYx+HFDNUZjg=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zvlkvb7j7iX8gTxbjRJtnqbMLJsWBJklmnOAvplhgAE=
+			7nEw0njcYou8aiuy5lrmm7z+vTdfdJP/ucB+YCi2new=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/arm64.swiftdoc</key>
@@ -125,14 +125,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5S4ZThavNbmMd/jOoydFh4yygjQ6R2U3cQWz1NFeG10=
+			lgt5CCdeEgd3GO0I9dYfrD7DWMKfGS0xYx+HFDNUZjg=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zvlkvb7j7iX8gTxbjRJtnqbMLJsWBJklmnOAvplhgAE=
+			7nEw0njcYou8aiuy5lrmm7z+vTdfdJP/ucB+YCi2new=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -146,14 +146,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lPv6yVcIk5lapyZ7IwQpRYVvIlXjseiOYQWh0O5BmsQ=
+			W5vmIj13EL0BY6ItNdZs5+RhKDj8g09f623MrvFU8wU=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jjMSz3QOJidtQj10e5CaCiVd0J13/m4depPMoqmfGtM=
+			hj8T3dBTOoGl6BG5mCwKWkhW35t57m3e6BnJj/HpxlI=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -167,14 +167,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lPv6yVcIk5lapyZ7IwQpRYVvIlXjseiOYQWh0O5BmsQ=
+			W5vmIj13EL0BY6ItNdZs5+RhKDj8g09f623MrvFU8wU=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jjMSz3QOJidtQj10e5CaCiVd0J13/m4depPMoqmfGtM=
+			hj8T3dBTOoGl6BG5mCwKWkhW35t57m3e6BnJj/HpxlI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
