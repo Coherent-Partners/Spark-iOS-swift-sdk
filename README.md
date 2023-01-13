@@ -30,20 +30,35 @@ To do this, use the Impex command line tool to obtain the models as a zip file. 
 
 
 ## Creating an instance of the SDK
-First, create an instance of the SDK factory:
+
+### Create the SDK factory
+
 ```
    let factory = SparkSDKFactory()
 ```
-The SDK will use an instance of `WKWebView` to host the WASM models. This instance can be injected into the SDK factory's constructor, or the SDK will create one itself. It is available as a public property on the SDK instance itself, when initialisation is complete. For performance reasons, you must ensure this `WKWebView` instance is attached to your app's view hierarchy.
+The SDK will use an instance of `WKWebView` to host the WASM models. In the above example, the SDK factory will create the instance itself. It's also possible to pass in an instance of a web view, eg. if you have already attached it to the UI hierarchy.
+```
+    let webView = WKWebView(frame: .zero)
+    let factory = SparkSDKFactory(webView: webView)
+    
+    // attach web view to UI elsewhere in class
+```
 
+### Attaching the `WKWebView` to the view hierarchy
+As of version 1.1, for performance reasons, you must ensure that the `WKWebView` instance is attached to your app's view hierarchy. This can be done after creating the factory, but must be done *before* making the call to `requestSDK`. This is so the SDK initialization benefits from `WKWebView`'s improved performance. The SDK will fail to initialize if the `WKWebView` is not attached to the view hierarchy.
 
-Once the models have been added to your project, you should obtain the directory where the models are stored, as a string. For example, this code gets the location of an folder in the project called `models`.
+### Requesting the SDK from the factory 
+Given that your WASM models have been added to your project, you should obtain the directory where the models are stored, as a string. For example, this code gets the location of an folder in the project called `models`.
 ```
    let path = Bundle.main.bundlePath
    let modelsPath = "\(path)/models"
 ```
 
-Then, pass this string to the factory, along with a completion handler. The factory has to do some setup work behind the scenes. We're using a completion handler here so we don't block the calling function. When everything is ready, or has failed, the completion handler will called with a `Result<SparkSDK, Error>` value. The completion handler will always be called - if setup failed, the result will be an error, with some information on what went wrong. If setup succeeded, your `Result` will contain a `SparkSDK` instance.
+Then, pass this string to the factory, along with a completion handler. The factory has to do some setup work behind the scenes. We're using a completion handler here so we don't block the calling function. When everything is ready, or has failed, the completion handler will be called with a `Result<SparkSDK, Error>` value. The completion handler will always be called - if setup failed, the result will be an error, with some information on what went wrong. 
+
+As of version 1.1, if the factory's `WKWebView` is not attached to the view hierarchy at this point, the completion handler will be called with an `Error`.
+
+If setup succeeded, your `Result` will contain a `SparkSDK` instance.
 ```
     let modelsUrl = URL(fileURLWithPath: modelsPath)
     factory.requestSDK(
