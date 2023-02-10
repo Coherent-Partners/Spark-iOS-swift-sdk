@@ -25,8 +25,7 @@ dependencies: [
 ### Including WASM models
 The SDK does not contain any WASM models by default; these must be provided to the factory.
 
-To do this, use the Impex command line tool to obtain the models as a zip file. Unzip this and add the files to your Xcode project. Each model ID must be present as either a zip file (eg. `39eb9fb4-3343-475c-8511-1f862ba2d408.zip`) or an unzipped directory with the same ID. The calculations perform better with unzipped models. It's an error to have a zip file and a directory with the same model ID - the SDK won't be able to deal with this. If there is any directory with the same model ID as a zip file, requesting the SDK will fail.
-
+To do this, use the Impex command line tool to obtain the models as a zip file. Unzip this and add the files to your Xcode project. Each model ID must be present as either a zip file (eg. `39eb9fb4-3343-475c-8511-1f862ba2d408.zip`) *OR* an unzipped directory with the same ID. The calculations perform better with unzipped models. It's an error to have a zip file and a directory with the same model ID - the SDK won't be able to deal with this. If there is any directory with the same model ID as a zip file, requesting the SDK will fail.
 
 
 ## Creating an instance of the SDK
