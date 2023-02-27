@@ -20,10 +20,6 @@ import _Concurrency
 extension SparkSDK.SparkiOSSDK : WebKit.WKScriptMessageHandler {
   @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
 }
-public struct JSMessage {
-  public let name: Swift.String
-  public let body: Any
-}
 public struct ExecutionResponse {
   public let error: Swift.String
   public let requestId: Swift.String
