@@ -4,6 +4,9 @@ The Spark iOS SDK enables you to run your WASM models on the iOS platform.
 ## Getting started
 The SDK is available as a Swift package and can be added to an Xcode project via Swift Package Manager.
 
+## Demo application
+The demo app is available [here](https://github.com/Coherent-Partners/Spark-iOS-SDK-Demo)
+
 ## Installation
 
 ### Requirements
