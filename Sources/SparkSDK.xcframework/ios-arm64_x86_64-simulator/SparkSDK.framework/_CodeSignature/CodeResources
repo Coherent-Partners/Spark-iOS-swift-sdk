@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		udLcYLlrf3ImGU16Smlw5GnlFlI=
+		Qtg42dvyaxt3uXh13dc8/9McRuY=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oR7rGpcHp3ProRkhTRX8qbUYxdI=
+		JzL6v/vzaY+GYYnuOFEET+TJfCo=
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ioe8V3113XR2LZ+79zUbJA6Ni5o=
+		Ai9SL8tcJbcb/1IdkUIOrXJ/avo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>resource/RunnerBundle.js</key>
 		<data>
-		F52l5ryfe6jPdQkMkOFRkyNOP+k=
+		nWGqHJVTi0LD/uky0wgCUrBOAW4=
 		</data>
 		<key>resource/index.html</key>
 		<data>
@@ -87,7 +87,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q6sDWFmdFQ7YYaup4jgaJpB8u2sMFITZWYjyzFUX9IA=
+			e5mJQ5zyCOTvBw/325sEqikaQ/cT49m2g7/RfhZq0+s=
 			</data>
 		</dict>
 		<key>Modules/SparkSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -108,7 +108,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nd1h+EQWTk0eTY3/jGFmV7FFkIdnMA9JQ1ChBLbcxq4=
+			0Y+8fW3lQg6aLOaf0RyI7/HxnUMZwv3FhhvUXUlO8/A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/1HnKYtMSmwNrl2RYZWCmgzKXq0AuIbbFG4IlTcoYek=
+			veBizk2/wfgrkZ0V+8SUG9SkIuuMW1Gid765/jOFVTM=
 			</data>
 		</dict>
 		<key>resource/index.html</key>
